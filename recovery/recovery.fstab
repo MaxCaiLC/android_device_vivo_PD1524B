@@ -6,7 +6,7 @@
 /system         ext4        /dev/block/platform/mtk-msdc.0/by-name/system        
 /system_image   emmc        /dev/block/platform/mtk-msdc.0/by-name/system
 /data           ext4        /dev/block/platform/mtk-msdc.0/by-name/userdata     flags=retainlayoutversion  length=-16384   
-/cache          ext4        /dev/block/mmcblk0p2        
+/cache          ext4        /dev/block/platform/mtk-msdc.0/by-name/cache    
 /reserve2          emmc        /dev/block/platform/mtk-msdc.0/by-name/reserve2        flags=display="reserve2";backup=1
 
 
